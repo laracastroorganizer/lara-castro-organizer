@@ -25,4 +25,5 @@ export default defineConfig({
       include: "**/*.svg",
     }),
   ],
+  base: "/lara-castro-organizer"
 });
