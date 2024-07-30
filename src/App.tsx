@@ -1,10 +1,32 @@
+import "./styles/global.css";
 
-export const App =() => {
+import {
+  AboutCourse,
+  AboutMe,
+  Benefits,
+  Faq,
+  Footer,
+  Guarantee,
+  Home,
+  Investment,
+} from "@pages";
+import { FloatingWhatsapp } from "@components";
 
-
+export const App = () => {
   return (
-    <h1>
-      Lara Castro Organizer
-    </h1>
-  )
-}
+    <div style={{ display: "flex", flexDirection: "column" }}>
+      {/* <Navbar /> */}
+      <Home />
+      <AboutCourse />
+      <AboutMe />
+      <Benefits />
+      <Investment />
+      <Guarantee />
+      <Faq />
+
+      <Footer />
+
+      <FloatingWhatsapp />
+    </div>
+  );
+};

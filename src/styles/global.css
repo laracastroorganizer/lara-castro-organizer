@@ -1,0 +1,7 @@
+@import './_reset.css';
+@import './_variables.css';
+
+body {
+  background-color: var(--background-color);
+  color: var(--black);
+}
