@@ -6,3 +6,4 @@ export { Footer } from "./Footer";
 export { Guarantee } from "./Guarantee";
 export { Home } from "./Home";
 export { Investment } from "./Investment";
+export { JoinUs } from "./JoinUs";

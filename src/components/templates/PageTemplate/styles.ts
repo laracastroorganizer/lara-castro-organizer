@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import { breakpoint } from "@utils";
 
-export const Container = styled.div<{
+export const Container = styled.section<{
   height?: string;
   backgroundColor?: string;
   hasBackgroundImg: boolean;

@@ -1,7 +1,6 @@
-import { PageTemplate, Typography, SVGImage } from "@components";
+import { PageTemplate, Typography, SocialMedia } from "@components";
 
 import * as S from "./styles";
-import { InstagramIcon, WhatsAppIcon } from "@assets";
 
 export const Footer = () => {
   return (
@@ -14,14 +13,7 @@ export const Footer = () => {
           reservados
         </Typography>
 
-        <S.SocialMediaContainer>
-          <a href="teste" >
-          <SVGImage Icon={InstagramIcon} />
-          </a>
-          <a href="teste" >
-          <SVGImage Icon={WhatsAppIcon} />
-          </a>
-        </S.SocialMediaContainer>
+        <SocialMedia />
       </S.Container>
     </PageTemplate>
   );

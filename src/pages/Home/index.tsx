@@ -1,12 +1,25 @@
-import { Button, PageTemplate, Typography } from "@components";
-
-import * as S from "./styles";
+import { Button, Flex, PageTemplate, Typography } from "@components";
 
 export const Home = () => {
   return (
-    <PageTemplate backgroundColor="var(--primary-color)" height="100vh">
-      <S.Content>
-        <Typography variant="secondary" size={52} color="var(--white)" align="center">
+    <PageTemplate
+      id="home"
+      backgroundColor="var(--primary-color)"
+      height="100vh"
+    >
+      <Flex
+        direction="column"
+        justifyContent="center"
+        alignItems="center"
+        gap={48}
+        height="100%"
+      >
+        <Typography
+          variant="secondary"
+          size={52}
+          color="var(--white)"
+          align="center"
+        >
           Descubra o segredo para aprender organizar de forma rápida, prática e
           segura o quartinho do seu bebê
         </Typography>
@@ -17,9 +30,8 @@ export const Home = () => {
           dia, tempo de qualidade para você e segurança para o seu bebê.
         </Typography>
 
-
         <Button variant="white">Descubra o segredo</Button>
-      </S.Content>
+      </Flex>
     </PageTemplate>
   );
 };

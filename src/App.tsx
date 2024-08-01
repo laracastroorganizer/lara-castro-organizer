@@ -9,24 +9,26 @@ import {
   Guarantee,
   Home,
   Investment,
+  JoinUs,
 } from "@pages";
-import { FloatingWhatsapp } from "@components";
+import { FloatingWhatsapp, Header } from "@components";
 
 export const App = () => {
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
-      {/* <Navbar /> */}
+    <>
+      <Header />
+
       <Home />
       <AboutCourse />
       <AboutMe />
       <Benefits />
+      <JoinUs />
       <Investment />
       <Guarantee />
       <Faq />
-
       <Footer />
 
       <FloatingWhatsapp />
-    </div>
+    </>
   );
 };

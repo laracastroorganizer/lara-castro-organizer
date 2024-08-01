@@ -1,7 +1,13 @@
 import { PageTemplate, SVGImage, Typography } from "@components";
 import * as S from "./styles";
 import { benefits, bonuses } from "./helper";
-import {  ChangingTable1, LaraBear1, LaraClothes, Clothes3, CheckMarkIcon } from "@assets";
+import {
+  ChangingTable1,
+  LaraBear1,
+  LaraClothes,
+  Clothes3,
+  CheckMarkIcon,
+} from "@assets";
 import { useEffect, useState } from "react";
 
 const images = [LaraBear1, ChangingTable1, LaraClothes, Clothes3];
@@ -18,7 +24,7 @@ export const Benefits = () => {
   }, []);
 
   return (
-    <PageTemplate height="100vh">
+    <PageTemplate id="benefits" height="100vh">
       <S.Container>
         <S.SliderWrapper>
           {images.map((image, index) => (
@@ -40,38 +46,34 @@ export const Benefits = () => {
 
           <S.ListContainer>
             {benefits.map((benefit) => (
-                <S.ListItem key={benefit}>
-                  <SVGImage
-                    Icon={CheckMarkIcon}
-                    height={10}
-                    color="var(--primary-color)"
-                  />
-                  <Typography>{benefit}</Typography>
-                </S.ListItem>
-              )
-            )}
+              <S.ListItem key={benefit}>
+                <SVGImage
+                  Icon={CheckMarkIcon}
+                  height={10}
+                  color="var(--primary-color)"
+                />
+                <Typography>{benefit}</Typography>
+              </S.ListItem>
+            ))}
           </S.ListContainer>
 
           <Typography size={40} variant="secondary">
-          Bônus:
+            Bônus:
           </Typography>
           <S.ListContainer>
             {bonuses.map((bonus) => (
-                <S.ListItem key={bonus}>
-                  <SVGImage
-                    Icon={CheckMarkIcon}
-                    height={10}
-                    color="var(--primary-color)"
-                  />
-                  <Typography weight={600}>{bonus}</Typography>
-                </S.ListItem>
-              )
-            )}
+              <S.ListItem key={bonus}>
+                <SVGImage
+                  Icon={CheckMarkIcon}
+                  height={10}
+                  color="var(--primary-color)"
+                />
+                <Typography weight={600}>{bonus}</Typography>
+              </S.ListItem>
+            ))}
           </S.ListContainer>
         </S.Content>
-
       </S.Container>
     </PageTemplate>
   );
 };
- 

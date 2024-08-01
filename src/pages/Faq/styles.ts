@@ -21,7 +21,13 @@ export const Card = styled.div`
 export const CardImage = styled.img`
   max-width: 100%;
   border-radius: 20px;
-  height: 100%;
+  height: auto;
+  object-fit: cover;
+
+  @media ${breakpoint.sm} {
+    max-height: 350px;
+    width: 100%;
+  }
 `;
 
 export const CardContent = styled.div<Pick<TCardsProps, "bgColor">>`

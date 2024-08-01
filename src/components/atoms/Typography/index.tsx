@@ -6,7 +6,7 @@ export const Typography = ({
   size = 16,
   variant = "primary",
   align = 'start',
-  weight = 400,
+  weight,
   color,
 }: TTypographyProps) => {
   return (

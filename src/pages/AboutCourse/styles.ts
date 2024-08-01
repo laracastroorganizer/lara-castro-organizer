@@ -1,15 +1,5 @@
-// styles.ts
 import styled from "styled-components";
 import { breakpoint } from "@utils";
-
-export const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  overflow: hidden;
-`;
 
 export const Content = styled.div`
   position: relative;
@@ -17,7 +7,7 @@ export const Content = styled.div`
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
-  
+
   @media ${breakpoint.sm} {
     padding: 25px;
   }
@@ -39,6 +29,4 @@ export const Content = styled.div`
       margin-top: 30px;
     }
   }
-
-
 `;

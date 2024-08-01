@@ -1,13 +1,17 @@
-import { PageTemplate, Typography } from "@components";
+import { Flex, PageTemplate, Typography } from "@components";
 import { AboutMeImg } from "@assets";
 import * as S from "./styles";
 
 export const AboutMe = () => {
   return (
-    <PageTemplate backgroundColor="var(--secondary-color)" height="98vh">
+    <PageTemplate
+      id="about-me"
+      backgroundColor="var(--secondary-color)"
+      height="98vh"
+    >
       <S.Container>
-        <S.Content>
-          <Typography variant='secondary'size={48} weight={800} align="center">
+        <Flex direction="column" gap={16} width="100%">
+          <Typography variant="secondary" size={48} weight={800} align="center">
             Quem é a Lara Castro
           </Typography>
 
@@ -42,7 +46,7 @@ export const AboutMe = () => {
             transformação de vida que a organização me trouxe.
             <b> E aqui estou, fazendo o que amo</b>!
           </Typography>
-        </S.Content>
+        </Flex>
 
         <S.ImgContainer>
           <S.Img src={AboutMeImg} />
