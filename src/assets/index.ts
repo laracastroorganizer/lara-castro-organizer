@@ -7,6 +7,8 @@ import Clothes3 from "./imgs/clothes3.jpeg";
 import LaraBear1 from "./imgs/laraBear1.jpeg";
 import LaraBear2 from "./imgs/laraBear2.jpeg";
 import LaraClothes from "./imgs/laraClothes.jpeg";
+import LogoB from "./imgs/logoB.png";
+import LogoBW from "./imgs/logoBW.png";
 
 import { ReactComponent as InstagramIcon } from "./icons/Instagram.svg";
 import { ReactComponent as CheckMarkIcon } from "./icons/CheckMark.svg";
@@ -22,6 +24,8 @@ export {
   LaraBear1,
   LaraBear2,
   LaraClothes,
+  LogoB,
+  LogoBW,
   CheckMarkIcon,
   InstagramIcon,
   WhatsAppIcon,
