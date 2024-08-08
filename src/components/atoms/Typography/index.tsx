@@ -8,6 +8,7 @@ export const Typography = ({
   align = 'start',
   weight,
   color,
+  style,
 }: TTypographyProps) => {
   return (
     <S.TypographyStyled
@@ -16,6 +17,7 @@ export const Typography = ({
       weight={weight}
       color={color}
       align={align}
+      style={style}
     >
       {children}
     </S.TypographyStyled>

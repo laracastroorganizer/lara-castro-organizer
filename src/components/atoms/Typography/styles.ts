@@ -8,8 +8,7 @@ const variantStyles = {
     `,
     secondary: css`
       font-family: 'Gwendolyn';
-      font-weight: 600;
-      line-height: 1.2;
+      line-height: 1.1;
     `,
   };
 

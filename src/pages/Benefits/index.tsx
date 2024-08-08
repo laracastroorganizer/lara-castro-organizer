@@ -1,16 +1,30 @@
-import { PageTemplate, SVGImage, Typography } from "@components";
-import * as S from "./styles";
-import { benefits, bonuses } from "./helper";
+import { useEffect, useState } from "react";
 import {
   ChangingTable1,
   LaraBear1,
   LaraClothes,
   Clothes3,
+  ChangingTable2,
+  LaraClothes1,
+  ClothesTemplate,
+  LaraCrib,
   CheckMarkIcon,
 } from "@assets";
-import { useEffect, useState } from "react";
+import { PageTemplate, SVGImage, Typography } from "@components";
+import { benefits, bonuses } from "./helper";
 
-const images = [LaraBear1, ChangingTable1, LaraClothes, Clothes3];
+import * as S from "./styles";
+
+const images = [
+  LaraBear1,
+  ChangingTable1,
+  LaraClothes,
+  Clothes3,
+  LaraClothes1,
+  ChangingTable2,
+  ClothesTemplate,
+  LaraCrib,
+];
 
 export const Benefits = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -57,7 +71,7 @@ export const Benefits = () => {
             ))}
           </S.ListContainer>
 
-          <Typography size={40} variant="secondary">
+          <Typography size={40} variant="secondary" weight={600}>
             Bônus:
           </Typography>
           <S.ListContainer>

@@ -41,8 +41,4 @@ export const CardContent = styled.div<Pick<TCardsProps, "bgColor">>`
 
   border-radius: 20px;
   background-color: ${({ bgColor }) => bgColor};
-
-  @media ${breakpoint.sm} {
-    padding: 10px;
-  }
 `;

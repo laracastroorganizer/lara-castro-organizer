@@ -4,7 +4,7 @@ export const Home = () => {
   return (
     <PageTemplate
       id="home"
-      backgroundColor="var(--primary-color)"
+      backgroundColor="var(--secondary-color)"
       height="100vh"
     >
       <Flex
@@ -17,20 +17,20 @@ export const Home = () => {
         <Typography
           variant="secondary"
           size={52}
-          color="var(--white)"
+          color="var(--text)"
           align="center"
         >
-          Descubra o segredo para aprender organizar de forma rápida, prática e
+          <b>Descubra o segredo</b> para aprender organizar de forma rápida, prática e
           segura o quartinho do seu bebê
         </Typography>
 
-        <Typography size={24} color="var(--white)">
-          Transforme a chegada do seu bebê em uma experiência organizada e
-          tranquila! Aprenda nesse curso como ganhar praticidade no seu dia a
-          dia, tempo de qualidade para você e segurança para o seu bebê.
+        <Typography size={24} color="var(--white)" align="center">
+          Transforme a chegada do seu bebê em uma <b>experiência organizada e
+          tranquila!</b> Aprenda nesse curso como ganhar <b>praticidade</b> no seu dia a
+          dia, <b>tempo de qualidade</b> para você e <b>segurança</b> para o seu bebê.
         </Typography>
 
-        <Button variant="white">Descubra o segredo</Button>
+        <Button variant="primary">Descubra o segredo</Button>
       </Flex>
     </PageTemplate>
   );

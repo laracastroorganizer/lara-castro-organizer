@@ -15,5 +15,5 @@ export const benefits: Array<string> = [
 export const bonuses: Array<string> = [
   "Lista de enxoval personalizada de acordo com a estação do ano da sua DPP",
   "Vídeos de dobras",
-  "Comunidade de mamães que Fazem Acontecer via WhatsApp"
+  "Comunidade de mamães que Organizam"
 ];

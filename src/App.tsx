@@ -6,7 +6,6 @@ import {
   Benefits,
   Faq,
   Footer,
-  Guarantee,
   Home,
   Investment,
   JoinUs,
@@ -24,7 +23,6 @@ export const App = () => {
       <Benefits />
       <JoinUs />
       <Investment />
-      <Guarantee />
       <Faq />
       <Footer />
 

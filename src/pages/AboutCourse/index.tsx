@@ -17,13 +17,17 @@ export const AboutCourse = () => {
           variant="secondary"
           align="center"
           color="var(--white)"
+          style={{
+            textShadow:
+              "-1px 0 var(--text), 0 1px var(--text), 1px 0 var(--text), 0 -1px var(--text)",
+          }}
         >
-          Sobre o curso "Você faz acontecer"
+          Sobre o curso <b>"Mamães que organizam"</b>
         </Typography>
 
         <Flex direction="column" alignItems="center">
           <S.Content className="content-one">
-            <Typography align="justify">
+            <Typography align="center">
               Sabemos que a chegada de um novo membro da família é um{" "}
               <b>momento especial, repleto de alegria</b> e que também pode
               trazer <b>muitos desafios</b>. Esse curso foi criado para ajudar

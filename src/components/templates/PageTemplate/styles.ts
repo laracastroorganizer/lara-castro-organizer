@@ -23,7 +23,7 @@ export const Content = styled.div`
 
   @media ${breakpoint.sm} {
     flex-direction: column;
-    padding: 15px;
+    padding: 25px;
   }
 `;
 

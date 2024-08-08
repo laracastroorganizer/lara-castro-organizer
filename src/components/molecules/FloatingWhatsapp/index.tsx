@@ -1,14 +1,12 @@
 import { WhatsAppIcon } from "@assets";
 import { SVGImage } from "@components";
+import { EXTERNAL_URL } from "@utils";
 import * as S from "./styles";
 
 export const FloatingWhatsapp = () => {
-  const whatsAppUrl =
-    "https://wa.me/";
-
   const handleOpenLink = () => {
-    window.open(whatsAppUrl, "_blank");
-  }
+    window.open(EXTERNAL_URL.WHATSAPP, "_blank");
+  };
 
   return (
     <S.FloatingWhatsappContainer onClick={handleOpenLink}>
