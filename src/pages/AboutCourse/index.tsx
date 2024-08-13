@@ -4,7 +4,11 @@ import * as S from "./styles";
 
 export const AboutCourse = () => {
   return (
-    <PageTemplate id="about-course" height="80vh" backgroundImg={RoomBackground}>
+    <PageTemplate
+      id="about-course"
+      height="80vh"
+      backgroundImg={RoomBackground}
+    >
       <Flex
         direction="column"
         justifyContent="center"
@@ -18,8 +22,7 @@ export const AboutCourse = () => {
           align="center"
           color="var(--text)"
           style={{
-            textShadow:
-              "3px 0 var(--white), 0 3px var(--white), 3px 0 var(--white), 0 3px var(--white)",
+            textShadow: "1px 1px 2px var(--white)",
           }}
         >
           Sobre o curso <b>"Mamães que organizam"</b>
@@ -43,8 +46,8 @@ export const AboutCourse = () => {
               align="center"
               color="var(--white)"
             >
-              Meu objetivo é que você tenha um quartinho lindo, que seja
-              prático e funcional para o seu dia a dia e seguro para o seu bebê!
+              Meu objetivo é que você tenha um quartinho lindo, que seja prático
+              e funcional para o seu dia a dia e seguro para o seu bebê!
             </Typography>
           </S.Content>
         </Flex>
