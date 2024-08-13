@@ -5,6 +5,7 @@ export { Typography } from "./atoms/Typography";
 export { FloatingWhatsapp } from "./molecules/FloatingWhatsapp";
 export { SocialMedia } from "./molecules/SocialMedia";
 
+export { Footer } from "./organisms/Footer";
 export { Header } from "./organisms/Header";
 
 export { Flex } from "./templates/Flex";

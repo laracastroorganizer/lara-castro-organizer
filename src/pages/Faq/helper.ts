@@ -24,7 +24,7 @@ export const cards: Array<TCardsProps> = [
   },
   { id: 6, image: Labeler },
   {
-    title: "Como funciona a comunidade de mamães que Fazem Acontecer?",
+    title: "Como funciona a comunidade de Mamães que organizam?",
     content:
       "É uma comunidade via WhatsApp, em um grupo fechado comigo e as outras alunas do curso, onde vocês mamães irão compartilhar com liberdade suas experiências. ",
     id: 7,

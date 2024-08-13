@@ -27,13 +27,12 @@ export const Home = () => {
 
         <Flex direction="column" gap={12}>
           <Typography size={24} color="var(--white)" align="center">
-            Transforme a chegada do seu bebê em uma{" "}
-            <b>experiência organizada e tranquila!</b>
+            Transforme a chegada do seu bebê em uma experiência organizada e
+            tranquila!
           </Typography>
           <Typography size={24} color="var(--white)" align="center">
-            Aprenda nesse curso como ganhar <b>praticidade</b> no seu dia a dia,{" "}
-            <b>tempo de qualidade</b> para você e <b>segurança</b> para o seu
-            bebê.
+            Aprenda nesse curso como ganhar praticidade no seu dia a dia, tempo
+            de qualidade para você e segurança para o seu bebê.
           </Typography>
         </Flex>
 

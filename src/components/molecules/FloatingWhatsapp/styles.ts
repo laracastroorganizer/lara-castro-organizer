@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 export const FloatingWhatsappContainer = styled.div`
   position: fixed;
-  bottom: 100px;
-  right: 50px;
+  bottom: 80px;
+  right: 80px;
 
   z-index: 5;
 

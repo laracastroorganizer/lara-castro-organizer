@@ -1,13 +1,13 @@
-import { PageTemplate, Typography, SocialMedia } from "@components";
 
+import { SocialMedia, Typography } from "@components";
 import { LogoBW } from "@assets";
+
 import * as S from "./styles";
 
-export const Footer = () => {
+export const Footer: React.FC = () => {
   return (
-    <PageTemplate backgroundColor="var(--primary-color)">
-      <S.Container>
-        
+    <S.FooterContainer>
+      <S.Content>
         <img src={LogoBW} height={60} />
 
         <Typography size={12} color="var(--white)" align="center">
@@ -16,7 +16,7 @@ export const Footer = () => {
         </Typography>
 
         <SocialMedia />
-      </S.Container>
-    </PageTemplate>
+      </S.Content>
+    </S.FooterContainer>
   );
 };

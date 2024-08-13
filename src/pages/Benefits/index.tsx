@@ -10,7 +10,13 @@ import {
   LaraCrib,
   CheckMarkIcon,
 } from "@assets";
-import { Button, Flex, PageTemplate, SVGImage, Typography } from "@components";
+import {
+  Button,
+  PageTemplate,
+  Spacing,
+  SVGImage,
+  Typography,
+} from "@components";
 import { benefits, bonuses } from "./helper";
 
 import * as S from "./styles";
@@ -87,9 +93,9 @@ export const Benefits = () => {
             ))}
           </S.ListContainer>
 
-          <Flex justifyContent="center">
+          <Spacing margin="32px auto">
             <Button>Quero me inscrever</Button>
-          </Flex>
+          </Spacing>
         </S.Content>
       </S.Container>
     </PageTemplate>

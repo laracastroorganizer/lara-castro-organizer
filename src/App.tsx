@@ -5,12 +5,11 @@ import {
   AboutMe,
   Benefits,
   Faq,
-  Footer,
   Home,
   Investment,
   JoinUs,
 } from "@pages";
-import { FloatingWhatsapp, Header } from "@components";
+import { FloatingWhatsapp, Header, Footer } from "@components";
 
 export const App = () => {
   return (
@@ -24,6 +23,7 @@ export const App = () => {
       <JoinUs />
       <Investment />
       <Faq />
+
       <Footer />
 
       <FloatingWhatsapp />

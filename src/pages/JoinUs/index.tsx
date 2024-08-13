@@ -7,7 +7,7 @@ export const JoinUs = () => {
         direction="column"
         justifyContent="center"
         alignItems="center"
-        gap={16}
+        gap={32}
         height="100%"
       >
         <Typography
@@ -21,16 +21,14 @@ export const JoinUs = () => {
           experiência organizada e livre de estresse.
         </Typography>
         <Typography
-          size={48}
+          size={24}
           align="center"
-          variant="secondary"
-          color="var(--text)"
-          weight={600}
+          color="var(--white)"
         >
           Inscreva-se agora e prepare-se da melhor forma possível!
         </Typography>
 
-        <Spacing margin="64px 0 0 0">
+        <Spacing margin="32px 0 0 0">
           <Button>Quero me inscrever agora!</Button>
         </Spacing>
       </Flex>

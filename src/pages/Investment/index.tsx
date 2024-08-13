@@ -10,7 +10,7 @@ export const Investment = () => {
       height="98vh"
     >
       <Flex direction="column" height="100%" justifyContent="center" gap={32}>
-        <Typography size={48} align="center" variant="secondary">
+        <Typography size={48} align="center" variant="secondary" weight={600}>
           Invista na sua tranquilidade e na segurança do seu bebê
         </Typography>
 

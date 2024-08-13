@@ -21,16 +21,17 @@ export const AboutCourse = () => {
           variant="secondary"
           align="center"
           color="var(--text)"
+          weight={600}
           style={{
             textShadow: "1px 1px 2px var(--white)",
           }}
         >
-          Sobre o curso <b>"Mamães que organizam"</b>
+          Sobre o curso "Mamães que organizam"
         </Typography>
 
         <Flex direction="column" alignItems="center">
           <S.Content className="content-one">
-            <Typography align="center" size={20}>
+            <Typography align="center" size={20} color="var(--text)">
               Sabemos que a chegada de um novo membro da família é um{" "}
               <b>momento especial, repleto de alegria</b> e que também pode
               trazer <b>muitos desafios</b>. Esse curso foi criado para ajudar
