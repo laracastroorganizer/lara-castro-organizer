@@ -12,6 +12,7 @@ import LaraBear1 from "./imgs/laraBear1.jpeg";
 import LaraBear2 from "./imgs/laraBear2.jpeg";
 import LaraClothes from "./imgs/laraClothes.jpeg";
 import LaraClothes1 from "./imgs/laraClothes1.jpeg";
+import RoomBackground from "./imgs/room-background.jpeg";
 
 import LogoB from "./imgs/logoB.png";
 import LogoBW from "./imgs/logoBW.png";
@@ -35,6 +36,7 @@ export {
   LaraBear2,
   LaraClothes,
   LaraClothes1,
+  RoomBackground,
   LogoB,
   LogoBW,
   CheckMarkIcon,

@@ -1,32 +1,39 @@
-import { Button, Flex, PageTemplate, Typography } from "@components";
-import * as S from "./styles";
+import { Button, Flex, PageTemplate, Spacing, Typography } from "@components";
 
 export const JoinUs = () => {
   return (
     <PageTemplate backgroundColor="var(--secondary-color)" height="98vh">
-      <S.BackgroundDiv>
-        <Flex
-          direction="column"
-          justifyContent="center"
-          alignItems="center"
-          gap={64}
-          height="100%"
+      <Flex
+        direction="column"
+        justifyContent="center"
+        alignItems="center"
+        gap={16}
+        height="100%"
+      >
+        <Typography
+          size={48}
+          align="center"
+          variant="secondary"
+          color="var(--text)"
+          weight={600}
         >
-          <Typography
-            size={48}
-            align="center"
-            variant="secondary"
-            color="var(--text)"
-            weight={600}
-          >
-            Não perca a oportunidade de transformar a chegada do seu bebê em uma
-            experiência organizada e livre de estresse. Inscreva-se agora no
-            nosso curso e prepare-se da melhor forma possível!
-          </Typography>
+          Não perca a oportunidade de transformar a chegada do seu bebê em uma
+          experiência organizada e livre de estresse.
+        </Typography>
+        <Typography
+          size={48}
+          align="center"
+          variant="secondary"
+          color="var(--text)"
+          weight={600}
+        >
+          Inscreva-se agora e prepare-se da melhor forma possível!
+        </Typography>
 
+        <Spacing margin="64px 0 0 0">
           <Button>Quero me inscrever agora!</Button>
-        </Flex>
-      </S.BackgroundDiv>
+        </Spacing>
+      </Flex>
     </PageTemplate>
   );
 };

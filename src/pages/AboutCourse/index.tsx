@@ -1,10 +1,10 @@
-import { Flex, PageTemplate, Typography } from "@components";
-import { Clothes2 } from "@assets";
+import { Button, Flex, PageTemplate, Typography } from "@components";
+import { RoomBackground } from "@assets";
 import * as S from "./styles";
 
 export const AboutCourse = () => {
   return (
-    <PageTemplate id="about-course" height="80vh" backgroundImg={Clothes2}>
+    <PageTemplate id="about-course" height="80vh" backgroundImg={RoomBackground}>
       <Flex
         direction="column"
         justifyContent="center"
@@ -16,10 +16,10 @@ export const AboutCourse = () => {
           size={48}
           variant="secondary"
           align="center"
-          color="var(--white)"
+          color="var(--text)"
           style={{
             textShadow:
-              "-1px 0 var(--text), 0 1px var(--text), 1px 0 var(--text), 0 -1px var(--text)",
+              "3px 0 var(--white), 0 3px var(--white), 3px 0 var(--white), 0 3px var(--white)",
           }}
         >
           Sobre o curso <b>"Mamães que organizam"</b>
@@ -27,7 +27,7 @@ export const AboutCourse = () => {
 
         <Flex direction="column" alignItems="center">
           <S.Content className="content-one">
-            <Typography align="center">
+            <Typography align="center" size={20}>
               Sabemos que a chegada de um novo membro da família é um{" "}
               <b>momento especial, repleto de alegria</b> e que também pode
               trazer <b>muitos desafios</b>. Esse curso foi criado para ajudar
@@ -43,11 +43,13 @@ export const AboutCourse = () => {
               align="center"
               color="var(--white)"
             >
-              Meu objetivo é que você consiga ter um quartinho lindo, que seja
+              Meu objetivo é que você tenha um quartinho lindo, que seja
               prático e funcional para o seu dia a dia e seguro para o seu bebê!
             </Typography>
           </S.Content>
         </Flex>
+
+        <Button variant="white">Quero me inscrever</Button>
       </Flex>
     </PageTemplate>
   );

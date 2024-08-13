@@ -19,16 +19,23 @@ export const Home = () => {
           size={52}
           color="var(--text)"
           align="center"
+          weight={600}
         >
-          <b>Descubra o segredo</b> para aprender organizar de forma rápida, prática e
-          segura o quartinho do seu bebê
+          Descubra o segredo para aprender a organizar de forma rápida, prática
+          e segura o quartinho do seu bebê
         </Typography>
 
-        <Typography size={24} color="var(--white)" align="center">
-          Transforme a chegada do seu bebê em uma <b>experiência organizada e
-          tranquila!</b> Aprenda nesse curso como ganhar <b>praticidade</b> no seu dia a
-          dia, <b>tempo de qualidade</b> para você e <b>segurança</b> para o seu bebê.
-        </Typography>
+        <Flex direction="column" gap={12}>
+          <Typography size={24} color="var(--white)" align="center">
+            Transforme a chegada do seu bebê em uma{" "}
+            <b>experiência organizada e tranquila!</b>
+          </Typography>
+          <Typography size={24} color="var(--white)" align="center">
+            Aprenda nesse curso como ganhar <b>praticidade</b> no seu dia a dia,{" "}
+            <b>tempo de qualidade</b> para você e <b>segurança</b> para o seu
+            bebê.
+          </Typography>
+        </Flex>
 
         <Button variant="primary">Descubra o segredo</Button>
       </Flex>

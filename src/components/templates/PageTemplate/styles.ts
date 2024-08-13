@@ -15,7 +15,7 @@ export const Container = styled.section<{
 `;
 
 export const Content = styled.div`
-  padding: 40px;
+  padding: 65px 40px;
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
@@ -23,7 +23,7 @@ export const Content = styled.div`
 
   @media ${breakpoint.sm} {
     flex-direction: column;
-    padding: 25px;
+    padding: 65px 25px;
   }
 `;
 
@@ -34,7 +34,6 @@ export const BackgroundImage = styled.div<{ backgroundImg: string }>`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: blur(3px);
   position: absolute;
   top: 0;
   left: 0;

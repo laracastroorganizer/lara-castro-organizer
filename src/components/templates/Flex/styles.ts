@@ -6,7 +6,7 @@ export const FlexContainer = styled.div<TFlexProps>`
   flex-direction: ${({ direction }) => direction};
   justify-content: ${({ justifyContent }) => justifyContent};
   align-items: ${({ alignItems }) => alignItems};
-  gap: ${({ gap }) => `${gap}px`};
+  gap: ${({ gap }) => gap && `${gap}px`};
 
   height: ${({ height }) => height};
   width: ${({ width }) => width};

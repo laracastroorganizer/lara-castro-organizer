@@ -15,7 +15,7 @@ export const Investment = () => {
         </Typography>
 
         <Typography align="center">
-          Nosso curso completo de organização baby está disponível por um valor
+          O curso completo de organização baby está disponível por um valor
           único, proporcionando acesso a todos os módulos, bônus e materiais
           didáticos por 1 ano.
         </Typography>
@@ -25,22 +25,34 @@ export const Investment = () => {
             <Typography align="center" size={20} weight={600}>
               Valor do curso:
             </Typography>
-            <Typography align="center">R$ 397,00 à vista</Typography>
+            <Typography align="center" weight={600}>
+              R$ 397,00 à vista
+            </Typography>
           </S.Box>
 
           <S.Box>
             <Typography align="center" size={20} weight={600}>
               Para compra hoje:
             </Typography>
-            <Typography align="center">12 x R$ 19,70</Typography>
-            <Typography align="center" size={8}>
+            <Typography align="center" weight={600}>
+              12 x R$ 19,70
+            </Typography>
+            <Typography align="center" size={8} weight={600}>
               ou
             </Typography>
-            <Typography align="center">R$ 197,00 à vista</Typography>
+            <Typography align="center" weight={600}>
+              R$ 197,00 à vista
+            </Typography>
           </S.Box>
         </S.Container>
 
-        <Typography align="center" variant="secondary" size={32} color="var(--white)" weight={600}>
+        <Typography
+          align="center"
+          variant="secondary"
+          size={32}
+          color="var(--white)"
+          weight={600}
+        >
           Garanta uma chegada tranquila e organizada para o seu bebê!
         </Typography>
 

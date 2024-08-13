@@ -16,7 +16,7 @@ export const AboutMe = () => {
           </Typography>
 
           <Typography align="justify">
-            Sou casada com o Guilherme, mãe de dois pets (Amora e Panchito) e se
+            Casada com o Guilherme, mãe de dois pets (Amora e Panchito) e se
             Deus quiser, futura mamãe de um bebê muito esperado!
           </Typography>
           <Typography align="justify">

@@ -10,7 +10,7 @@ import {
   LaraCrib,
   CheckMarkIcon,
 } from "@assets";
-import { PageTemplate, SVGImage, Typography } from "@components";
+import { Button, Flex, PageTemplate, SVGImage, Typography } from "@components";
 import { benefits, bonuses } from "./helper";
 
 import * as S from "./styles";
@@ -54,7 +54,7 @@ export const Benefits = () => {
         </S.SliderWrapper>
 
         <S.Content>
-          <Typography size={48} variant="secondary" align="center">
+          <Typography size={48} variant="secondary" align="center" weight={600}>
             Neste curso você irá aprender:
           </Typography>
 
@@ -86,6 +86,10 @@ export const Benefits = () => {
               </S.ListItem>
             ))}
           </S.ListContainer>
+
+          <Flex justifyContent="center">
+            <Button>Quero me inscrever</Button>
+          </Flex>
         </S.Content>
       </S.Container>
     </PageTemplate>
