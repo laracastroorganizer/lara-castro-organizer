@@ -18,6 +18,7 @@ import {
   Typography,
 } from "@components";
 import { benefits, bonuses } from "./helper";
+import { EXTERNAL_URL } from "@utils";
 
 import * as S from "./styles";
 
@@ -42,6 +43,10 @@ export const Benefits = () => {
 
     return () => clearInterval(intervalId);
   }, []);
+
+  const handleRedirect = () => {
+    window.open(EXTERNAL_URL.COURSE, "_blank");
+  };
 
   return (
     <PageTemplate id="benefits" height="100vh">
@@ -94,7 +99,7 @@ export const Benefits = () => {
           </S.ListContainer>
 
           <Spacing margin="32px auto">
-            <Button>Quero me inscrever</Button>
+            <Button onClick={handleRedirect}>Quero me inscrever</Button>
           </Spacing>
         </S.Content>
       </S.Container>

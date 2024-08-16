@@ -1,8 +1,13 @@
 import { Button, Flex, PageTemplate, Typography } from "@components";
+import { EXTERNAL_URL } from "@utils";
 
 import * as S from "./styles";
 
 export const Investment = () => {
+  const handleRedirect = () => {
+    window.open(EXTERNAL_URL.COURSE, "_blank");
+  };
+
   return (
     <PageTemplate
       id="investment"
@@ -35,7 +40,7 @@ export const Investment = () => {
               Para compra hoje:
             </Typography>
             <Typography align="center" weight={600}>
-              12 x R$ 19,70
+              12 x R$ 20,14
             </Typography>
             <Typography align="center" size={8} weight={600}>
               ou
@@ -57,7 +62,9 @@ export const Investment = () => {
         </Typography>
 
         <Flex width="100%" justifyContent="center">
-          <Button variant="white">Inscreva-se agora</Button>
+          <Button variant="white" onClick={handleRedirect}>
+            Inscreva-se agora
+          </Button>
         </Flex>
 
         <Flex direction="column">

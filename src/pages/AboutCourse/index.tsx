@@ -1,8 +1,13 @@
 import { Button, Flex, PageTemplate, Typography } from "@components";
 import { RoomBackground } from "@assets";
+import { EXTERNAL_URL } from "@utils";
 import * as S from "./styles";
 
 export const AboutCourse = () => {
+  const handleRedirect = () => {
+    window.open(EXTERNAL_URL.COURSE, "_blank");
+  };
+
   return (
     <PageTemplate
       id="about-course"
@@ -53,7 +58,9 @@ export const AboutCourse = () => {
           </S.Content>
         </Flex>
 
-        <Button variant="white">Quero me inscrever</Button>
+        <Button variant="white" onClick={handleRedirect}>
+          Quero me inscrever
+        </Button>
       </Flex>
     </PageTemplate>
   );

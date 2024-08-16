@@ -1,6 +1,11 @@
 import { Button, Flex, PageTemplate, Spacing, Typography } from "@components";
+import { EXTERNAL_URL } from "@utils";
 
 export const JoinUs = () => {
+  const handleRedirect = () => {
+    window.open(EXTERNAL_URL.COURSE, "_blank");
+  };
+
   return (
     <PageTemplate backgroundColor="var(--secondary-color)" height="98vh">
       <Flex
@@ -29,7 +34,7 @@ export const JoinUs = () => {
         </Typography>
 
         <Spacing margin="32px 0 0 0">
-          <Button>Quero me inscrever agora!</Button>
+          <Button onClick={handleRedirect}>Quero me inscrever agora!</Button>
         </Spacing>
       </Flex>
     </PageTemplate>

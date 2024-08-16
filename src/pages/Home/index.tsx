@@ -1,6 +1,11 @@
 import { Button, Flex, PageTemplate, Typography } from "@components";
+import { EXTERNAL_URL } from "@utils";
 
 export const Home = () => {
+  const handleRedirect = () => {
+    window.open(EXTERNAL_URL.COURSE, "_blank");
+  };
+
   return (
     <PageTemplate
       id="home"
@@ -36,7 +41,7 @@ export const Home = () => {
           </Typography>
         </Flex>
 
-        <Button variant="primary">Descubra o segredo</Button>
+        <Button onClick={handleRedirect}>Descubra o segredo</Button>
       </Flex>
     </PageTemplate>
   );
