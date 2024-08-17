@@ -30,7 +30,11 @@ export const Investment = () => {
             <Typography align="center" size={20} weight={600}>
               Valor do curso:
             </Typography>
-            <Typography align="center" weight={600}>
+            <Typography
+              align="center"
+              weight={600}
+              style={{ textDecoration: "line-through" }}
+            >
               R$ 397,00 à vista
             </Typography>
           </S.Box>
