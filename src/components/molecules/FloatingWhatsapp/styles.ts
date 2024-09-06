@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const FloatingWhatsappContainer = styled.div`
   position: fixed;
   bottom: 80px;
-  right: 80px;
+  left: 80px;
 
   z-index: 5;
 
@@ -26,6 +26,6 @@ export const FloatingWhatsappContainer = styled.div`
 
   @media ${breakpoint.sm} {
     bottom: 25px;
-    right: 25px;
+    left: 25px;
   }
 `;
