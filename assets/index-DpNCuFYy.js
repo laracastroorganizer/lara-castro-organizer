@@ -94,7 +94,7 @@ src="https://www.facebook.com/tr?id=901871708513582&ev=PageView&noscript=1"
 />`})]}),k0=A.div`
   position: fixed;
   bottom: 80px;
-  right: 80px;
+  left: 80px;
 
   z-index: 5;
 
@@ -116,7 +116,7 @@ src="https://www.facebook.com/tr?id=901871708513582&ev=PageView&noscript=1"
 
   @media ${Ee.sm} {
     bottom: 25px;
-    right: 25px;
+    left: 25px;
   }
 `,_0=()=>{const e=()=>{window.open(Kt.WHATSAPP,"_blank")};return g.jsx(k0,{onClick:e,children:g.jsx(lo,{Icon:nh})})},T0=A.div`
   display: flex;
