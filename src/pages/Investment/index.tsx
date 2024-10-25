@@ -44,7 +44,7 @@ export const Investment = () => {
               Para compra hoje:
             </Typography>
             <Typography align="center" weight={600}>
-              12 x R$ 20,14
+              12 x R$ 19,66
             </Typography>
             <Typography align="center" size={8} weight={600}>
               ou
