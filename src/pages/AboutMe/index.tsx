@@ -16,8 +16,8 @@ export const AboutMe = () => {
           </Typography>
 
           <Typography align="justify">
-            Casada com o Guilherme, mãe de dois pets (Amora e Panchito) e se
-            Deus quiser, futura mamãe de um bebê muito esperado!
+            Casada com o Guilherme, mãe de dois pets (Amora e Panchito) e à
+            espera do nosso primeiro bebê!
           </Typography>
           <Typography align="justify">
             Nasci em Ervália-MG, me formei em Farmácia pela UFOP e me mudei para
